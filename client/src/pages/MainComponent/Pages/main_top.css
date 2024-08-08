@@ -1,0 +1,24 @@
+.main_top {
+  margin-top: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 40px 0 40px;
+}
+
+.search {
+  display: flex;
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+  padding: 4px 4px 4px 10px;
+  width: 445px;
+  height: 36px;
+}
+.search_input {
+  width: 100%;
+  font-weight: 400;
+  font-size: 14px;
+  background-color: initial;
+  border: none;
+  outline: none;
+}

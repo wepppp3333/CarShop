@@ -1,0 +1,53 @@
+.favorite_container {
+  padding: 0 40px 0 40px;
+}
+.container_title {
+  padding-bottom: 26px;
+  border-bottom: 1px solid #d9d9d9;
+  font-weight: 700;
+  margin-bottom: 54px;
+}
+
+.container_list_cars {
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+}
+
+.favorite-car {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-bottom: 34px;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.car_info p {
+  color: #595959;
+  margin-bottom: 16px;
+}
+.cars_price {
+  color: #000;
+  font-weight: 500;
+}
+
+.car_info_btn {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.complection_btn {
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 19px 34px;
+  background-color: #4f2cd9;
+  color: #fff;
+  cursor: not-allowed;
+}
+
+button {
+  border: none;
+  background-color: initial;
+  cursor: pointer;
+}

@@ -1,0 +1,78 @@
+.cars {
+  padding: 0px 40px 100px 40px;
+  position: relative;
+}
+.conteiner_card {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 435px);
+  gap: 75px;
+  grid-column-gap: 20px;
+  justify-content: center;
+}
+
+.card h2 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.card_img {
+  border-radius: 15px 15px 0 0;
+  border: 1px solid #d9d9d9;
+}
+.card_img_position {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card_no-active {
+  width: 237px;
+  height: 59px;
+  position: absolute;
+  background-color: #000;
+  color: #fff;
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  cursor: not-allowed;
+  font-weight: 500;
+  font-size: 24px;
+  border-radius: 15px;
+  z-index: 100;
+}
+.availability {
+  opacity: 0.3;
+}
+
+.card_model {
+  display: flex;
+}
+.card_year,
+.card_color {
+  color: #595959;
+}
+.card_color {
+  margin-left: 14px;
+}
+.card_price {
+  font-weight: 500;
+}
+.card_btn_end_img {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.card_btn {
+  border-radius: 5px;
+  padding: 19px 99px;
+  font-weight: 500;
+  font-size: 16px;
+  border: none;
+}
+.card_favorite_btn{
+  border: none;
+  background-color: initial;
+  cursor: pointer;
+}
